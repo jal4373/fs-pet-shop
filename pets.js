@@ -173,6 +173,8 @@ if (cmd === 'read') {
     process.exit(1);
 }
 
+module.exports = app;
+
 // function defineAgeKindName(ageArgv, kindArgv, nameArgv) {
 //     let age = parseInt(process.argv[ageArgv]);
 //     let kind = process.argv[kindArgv];

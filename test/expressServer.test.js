@@ -9,7 +9,7 @@ process.env.PORT = 3003;
 const app = rewire('../expressServer');
 
 describe('pets expressServer', () => {
-  beforeEach(() => {
+  beforeEach(() => { 
     let petsArr = [{
       age: 7,
       kind: 'rainbow',

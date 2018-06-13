@@ -52,7 +52,7 @@ if (cmd === 'read') {
         }
         //turns JSON string into object
         let pets = JSON.parse(data);
-        defineAgeKindName(3, 4, 5);
+
         let age = parseInt(process.argv[3]);
         let kind = process.argv[4];
         let name = process.argv[5];
